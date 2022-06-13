@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style/global.css">
+    <link rel="stylesheet" href="./HomeCss/header.css">
+    <link rel="stylesheet" href="./HomeCss/main.css">
+    <link rel="stylesheet" href="./HomeCss/footer.css">
+    <title>WhatWatch</title>
+</head>
+<body>
+    <header class="header">
+        <div class="flex">
+            <nav class="nav__header">
+                <a class="header-item" href="#"><b class="bold">MovieLand</b></a>
+            </nav>
+        </div>
+        <div class="container">
+            <form id="form">
+                <input type="text" placeholder="Pesquisar" id="search" class="search">
+            </form>
+        </div>
+    </header>
+    <div id="main"></div>
+    <main class="main" id="main2">
+    <div class="movieList movieList--first">
+        <h2 class="movieList--h2">Populares</h2>
+        <div id="populares" class="movieList--list">
+        </div>
+    </div>
+    <div class="movieList">
+        <h2 class="movieList--h2">Melhores Avaliados</h2>
+        <div id="cinema" class="movieList--list">
+        </div>
+    </div>
+    <div class="movieList">
+        <h2 class="movieList--h2">Em Breve</h2>
+        <div id="upcoming" class="movieList--list">
+        </div>
+    </div>
+    <div class="movieList">
+        <h2 class="movieList--h2">Nos Cinemas</h2>
+        <div id="latest" class="movieList--list">
+        </div>
+    </div>
+            
+    </main>
+    <footer class="footer">
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+    
+    
+</body>
+</html>

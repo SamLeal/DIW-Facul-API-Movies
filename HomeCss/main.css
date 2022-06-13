@@ -1,0 +1,102 @@
+.search{
+    background-color: transparent;
+    border: 2px solid #8888;
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color:#fff;
+    font-family: inherit;
+}
+
+.search:focus{
+    outline:0;
+    background-color: #8888;
+}
+
+.search::placeholder{
+    color: white;
+}
+
+.movieList {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.movieList--first {
+    margin-top: 10px;
+}
+
+.movieList--h2  {
+    margin: 0px 0px 0px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.movieList--area {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieList--list {
+    overflow-x: hidden;
+    display: flex;
+    transition: all  ease 0.3s;
+    
+}
+
+.movie-info{
+    overflow-x: hidden;
+    color:#eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 0;
+}
+
+.movie-info span{
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green{
+    color:lightgreen;
+}
+
+.movie-info span.orange{
+    color:orange;
+}
+
+.movie-info span.red{
+    color:red;
+}
+
+
+.movieList--item {
+    cursor: pointer;
+    max-width: 250px;
+    height: 450px;
+}
+
+.movieList--item img{
+    width: 250px;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.movieList--item img:hover{
+    transform: scale(1);
+}
+
+
+#main{
+    margin-top: 70px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
