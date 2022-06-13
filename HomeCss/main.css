@@ -36,6 +36,11 @@
     overflow-x: hidden;
     padding-left: 30px;
 }
+@media screen and (max-width: 760px) { 
+    .movieList--list {
+       font-size: 18px;
+    }
+}
 
 .movieList--list {
     overflow-x: hidden;
