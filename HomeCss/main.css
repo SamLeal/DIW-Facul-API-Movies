@@ -40,6 +40,10 @@
     .movieList--list {
        font-size: 18px;
     }
+
+    #main{
+        margin-left: 70px;
+    }
 }
 
 .movieList--list {
@@ -107,7 +111,9 @@
 
 #main{
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: 0px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
