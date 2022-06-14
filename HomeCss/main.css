@@ -43,9 +43,15 @@
 }
 
 .movieList--list {
-    overflow-x: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     display: flex;
     transition: all  ease 0.3s;
+    
+}
+
+.movieList--list::-webkit-scrollbar {
+    display: none;
     
 }
 
