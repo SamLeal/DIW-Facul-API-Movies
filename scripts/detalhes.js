@@ -37,7 +37,7 @@ function showMovies(data) {
         <span class="${getColor(vote_average)}">${vote_average}</span>
         <p class="p">${overview}</p>
         <p><b>Gênero:</b> ${genero}</p>
-        <p><b>Duração:</b> ${runtime}</p>
+        <p><b>Duração:</b> ${runtime} minutos</p>
       </div>
       `
       
